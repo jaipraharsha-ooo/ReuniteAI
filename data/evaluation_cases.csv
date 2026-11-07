@@ -1,0 +1,47 @@
+query_id,query_text,expected_report_id,scenario_type,notes
+Q01,dark blue metal water bottle with white mountain sticker,F-001,exact,Close to the report text
+Q02,metal water flask blue colour sticker on it left in library,F-001,paraphrase,Different wording for bottle
+Q03,green sports bottle with black cap,F-002,exact,Colour and cap
+Q04,silver thermos flask dent at the bottom,F-003,exact,Dented flask
+Q05,white earbuds with charging case and blue loop,F-004,exact,Earbuds
+Q06,small white wireless headphones case lost in lab,F-004,paraphrase,Synonym headphones
+Q07,black wired earphones with a silver clip,F-005,exact,Wired earphones
+Q08,my college ID card with red lanyard,F-006,paraphrase,ID card
+Q09,blue library membership card torn corner,F-007,exact,Library card
+Q10,big black foldable umbrella wooden handle,F-008,paraphrase,Umbrella
+Q11,red umbrella with white dots,F-009,partial,Missing broken spoke
+Q12,yellow spiral notebook with physics notes,F-010,exact,Notebook
+Q13,black notebook with a cat sticker,F-011,partial,Misleading overlap with F-010
+Q14,purple pouch with pens and calculator,F-012,paraphrase,Pencil pouch
+Q15,silver pen drive with red cap 32GB,F-013,paraphrase,USB synonym
+Q16,black scientific calculator with cracked back,F-014,exact,Calculator
+Q17,laptop charger black with white tape,F-015,partial,Charger
+Q18,navy backpack with football keychain,F-016,partial,Backpack
+Q19,cream tote bag with coffee cup print,F-017,exact,Tote
+Q20,black rectangular glasses with brown case,F-018,paraphrase,Glasses synonym
+Q21,brown round sunglasses loose arm,F-019,exact,Sunglasses
+Q22,silver wristwatch with brown strap,F-020,partial,Watch
+Q23,grey hoodie with university logo,F-021,partial,Hoodie
+Q24,black denim jacket with badge on sleeve,F-022,exact,Jacket
+Q25,keys with red bike keychain,F-023,partial,Misleading overlap with F-024
+Q26,bike key with blue tag,F-024,partial,Misleading overlap with F-023
+Q27,blue lunch box with green lid,F-025,exact,Lunch box
+Q28,AI textbook blue cover highlighted,F-026,paraphrase,Textbook
+Q29,white power bank with black cable,F-027,exact,Power bank
+Q30,black phone with clear case and cracked protector,F-028,paraphrase,Phone
+Q31,brown leather wallet with coin pocket,F-029,exact,Wallet
+Q32,navy cap with white logo,F-030,partial,Cap
+Q33,I lost a thing,NO_MATCH,vague,Too little information to identify any item
+Q34,gold necklace with heart pendant,NO_MATCH,no-match,Not in dataset
+Q35,yellow raincoat with hood,NO_MATCH,no-match,Not in dataset
+Q36,tennis racket with green grip,NO_MATCH,no-match,Not in dataset
+Q37,pink water bottle with unicorn,NO_MATCH,no-match,Shares bottle only
+Q38,gaming mouse with RGB light,NO_MATCH,no-match,Not in dataset
+H01,something to drink from that is blue and has a picture on it,F-001,hard-paraphrase,No shared noun with report
+H02,small bag for pens,F-012,hard-paraphrase,Synonym only
+H03,device to carry files in my pocket,F-013,hard-paraphrase,Describes function not name
+H04,thing to keep dry in rain,F-008,hard-paraphrase,Function only; two umbrellas exist
+H05,spare phone battery,F-027,hard-paraphrase,Synonym of power bank
+H06,eyewear with dark frame,F-018,hard-paraphrase,Synonym of spectacles
+H07,something to hold my lunch,F-025,hard-paraphrase,Function only
+H08,cold weather top grey,F-021,hard-paraphrase,Synonym of hoodie

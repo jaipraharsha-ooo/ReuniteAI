@@ -1,0 +1,93 @@
+method,query_id,scenario,expected,top1,top1_score,outcome
+Keyword baseline,Q01,exact,F-001,F-001,1.0,rank 1
+Keyword baseline,Q02,paraphrase,F-001,F-001,0.571,rank 1
+Keyword baseline,Q03,exact,F-002,F-002,1.0,rank 1
+Keyword baseline,Q04,exact,F-003,F-003,0.8,rank 1
+Keyword baseline,Q05,exact,F-004,F-004,1.0,rank 1
+Keyword baseline,Q06,paraphrase,F-004,F-004,0.667,rank 1
+Keyword baseline,Q07,exact,F-005,F-005,1.0,rank 1
+Keyword baseline,Q08,paraphrase,F-006,F-006,1.0,rank 1
+Keyword baseline,Q09,exact,F-007,F-007,1.0,rank 1
+Keyword baseline,Q10,paraphrase,F-008,F-008,0.667,rank 1
+Keyword baseline,Q11,partial,F-009,F-009,1.0,rank 1
+Keyword baseline,Q12,exact,F-010,F-010,1.0,rank 1
+Keyword baseline,Q13,partial,F-011,F-011,1.0,rank 1
+Keyword baseline,Q14,paraphrase,F-012,F-012,1.0,rank 1
+Keyword baseline,Q15,paraphrase,F-013,F-013,1.0,rank 1
+Keyword baseline,Q16,exact,F-014,F-014,1.0,rank 1
+Keyword baseline,Q17,partial,F-015,F-015,1.0,rank 1
+Keyword baseline,Q18,partial,F-016,F-016,1.0,rank 1
+Keyword baseline,Q19,exact,F-017,F-017,0.833,rank 1
+Keyword baseline,Q20,paraphrase,F-018,F-018,0.8,rank 1
+Keyword baseline,Q21,exact,F-019,F-019,1.0,rank 1
+Keyword baseline,Q22,partial,F-020,F-020,0.75,rank 1
+Keyword baseline,Q23,partial,F-021,F-021,1.0,rank 1
+Keyword baseline,Q24,exact,F-022,F-022,1.0,rank 1
+Keyword baseline,Q25,partial,F-023,F-023,1.0,rank 1
+Keyword baseline,Q26,partial,F-024,F-024,1.0,rank 1
+Keyword baseline,Q27,exact,F-025,F-025,1.0,rank 1
+Keyword baseline,Q28,paraphrase,F-026,F-026,0.8,rank 1
+Keyword baseline,Q29,exact,F-027,F-027,1.0,rank 1
+Keyword baseline,Q30,paraphrase,F-028,F-028,0.833,rank 1
+Keyword baseline,Q31,exact,F-029,F-029,1.0,rank 1
+Keyword baseline,Q32,partial,F-030,F-030,1.0,rank 1
+Keyword baseline,Q33,vague,NO_MATCH,F-001,0.0,correct no-match
+Keyword baseline,Q34,no-match,NO_MATCH,F-001,0.0,correct no-match
+Keyword baseline,Q35,no-match,NO_MATCH,F-010,0.333,correct no-match
+Keyword baseline,Q36,no-match,NO_MATCH,F-002,0.25,correct no-match
+Keyword baseline,Q37,no-match,NO_MATCH,F-001,0.5,false positive
+Keyword baseline,Q38,no-match,NO_MATCH,F-001,0.0,correct no-match
+Keyword baseline,H01,hard-paraphrase,F-001,F-001,0.167,rank 1
+Keyword baseline,H02,hard-paraphrase,F-012,F-012,0.667,rank 1
+Keyword baseline,H03,hard-paraphrase,F-013,F-016,0.25,rank 15
+Keyword baseline,H04,hard-paraphrase,F-008,F-001,0.0,rank 8
+Keyword baseline,H05,hard-paraphrase,F-027,F-028,0.333,rank 28
+Keyword baseline,H06,hard-paraphrase,F-018,F-001,0.333,rank 18
+Keyword baseline,H07,hard-paraphrase,F-025,F-025,0.333,rank 1
+Keyword baseline,H08,hard-paraphrase,F-021,F-021,0.25,rank 1
+TF-IDF + cosine,Q01,exact,F-001,F-001,0.846,rank 1
+TF-IDF + cosine,Q02,paraphrase,F-001,F-001,0.388,rank 1
+TF-IDF + cosine,Q03,exact,F-002,F-002,0.622,rank 1
+TF-IDF + cosine,Q04,exact,F-003,F-003,0.532,rank 1
+TF-IDF + cosine,Q05,exact,F-004,F-004,0.598,rank 1
+TF-IDF + cosine,Q06,paraphrase,F-004,F-004,0.531,rank 1
+TF-IDF + cosine,Q07,exact,F-005,F-005,0.722,rank 1
+TF-IDF + cosine,Q08,paraphrase,F-006,F-006,0.741,rank 1
+TF-IDF + cosine,Q09,exact,F-007,F-007,0.771,rank 1
+TF-IDF + cosine,Q10,paraphrase,F-008,F-008,0.679,rank 1
+TF-IDF + cosine,Q11,partial,F-009,F-009,0.682,rank 1
+TF-IDF + cosine,Q12,exact,F-010,F-010,0.62,rank 1
+TF-IDF + cosine,Q13,partial,F-011,F-011,0.511,rank 1
+TF-IDF + cosine,Q14,paraphrase,F-012,F-012,0.528,rank 1
+TF-IDF + cosine,Q15,paraphrase,F-013,F-013,0.699,rank 1
+TF-IDF + cosine,Q16,exact,F-014,F-014,0.668,rank 1
+TF-IDF + cosine,Q17,partial,F-015,F-015,0.712,rank 1
+TF-IDF + cosine,Q18,partial,F-016,F-016,0.565,rank 1
+TF-IDF + cosine,Q19,exact,F-017,F-017,0.721,rank 1
+TF-IDF + cosine,Q20,paraphrase,F-018,F-018,0.476,rank 1
+TF-IDF + cosine,Q21,exact,F-019,F-019,0.884,rank 1
+TF-IDF + cosine,Q22,partial,F-020,F-020,0.328,rank 1
+TF-IDF + cosine,Q23,partial,F-021,F-021,0.576,rank 1
+TF-IDF + cosine,Q24,exact,F-022,F-022,0.69,rank 1
+TF-IDF + cosine,Q25,partial,F-023,F-023,0.657,rank 1
+TF-IDF + cosine,Q26,partial,F-024,F-024,0.675,rank 1
+TF-IDF + cosine,Q27,exact,F-025,F-025,0.73,rank 1
+TF-IDF + cosine,Q28,paraphrase,F-026,F-026,0.664,rank 1
+TF-IDF + cosine,Q29,exact,F-027,F-027,0.701,rank 1
+TF-IDF + cosine,Q30,paraphrase,F-028,F-028,0.451,rank 1
+TF-IDF + cosine,Q31,exact,F-029,F-029,0.725,rank 1
+TF-IDF + cosine,Q32,partial,F-030,F-030,0.666,rank 1
+TF-IDF + cosine,Q33,vague,NO_MATCH,F-001,0.0,correct no-match
+TF-IDF + cosine,Q34,no-match,NO_MATCH,F-001,0.0,correct no-match
+TF-IDF + cosine,Q35,no-match,NO_MATCH,F-010,0.235,false positive
+TF-IDF + cosine,Q36,no-match,NO_MATCH,F-002,0.327,false positive
+TF-IDF + cosine,Q37,no-match,NO_MATCH,F-001,0.586,false positive
+TF-IDF + cosine,Q38,no-match,NO_MATCH,F-001,0.0,correct no-match
+TF-IDF + cosine,H01,hard-paraphrase,F-001,F-001,0.218,rank 1
+TF-IDF + cosine,H02,hard-paraphrase,F-012,F-017,0.231,rank 2
+TF-IDF + cosine,H03,hard-paraphrase,F-013,F-029,0.223,rank 16
+TF-IDF + cosine,H04,hard-paraphrase,F-008,F-001,0.0,rank 8
+TF-IDF + cosine,H05,hard-paraphrase,F-027,F-028,0.245,rank 28
+TF-IDF + cosine,H06,hard-paraphrase,F-018,F-001,0.215,rank 18
+TF-IDF + cosine,H07,hard-paraphrase,F-025,F-025,0.358,rank 1
+TF-IDF + cosine,H08,hard-paraphrase,F-021,F-021,0.263,rank 1

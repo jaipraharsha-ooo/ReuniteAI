@@ -1,0 +1,31 @@
+report_id,item_name,category,description,location,date_found,status,source_type
+F-001,Blue water bottle,bottle,Dark blue metal water bottle with a white sticker of a mountain on the side,Library reading room,2026-10-01,Available,Synthetic
+F-002,Green water bottle,bottle,Green plastic sports bottle with a black flip cap and scratches,Basketball court,2026-10-02,Available,Synthetic
+F-003,Steel flask,bottle,Silver stainless steel thermos flask with dented bottom,Canteen,2026-10-02,Available,Synthetic
+F-004,Wireless earbuds,electronics,White wireless earbuds in a small white charging case with a blue lanyard loop,Lab 3,2026-10-03,Available,Synthetic
+F-005,Black earphones,electronics,Black wired earphones tangled with a small silver clip,Bus stop,2026-10-03,Available,Synthetic
+F-006,Student ID card,id card,College ID card in a transparent holder with a red lanyard,Main gate,2026-10-04,Available,Synthetic
+F-007,Library card,id card,Blue library membership card with a barcode and a torn corner,Library entrance,2026-10-04,Available,Synthetic
+F-008,Black umbrella,umbrella,Large black folding umbrella with a wooden handle,Auditorium,2026-10-05,Available,Synthetic
+F-009,Red umbrella,umbrella,Small red umbrella with white polka dots and a broken spoke,Canteen,2026-10-05,Available,Synthetic
+F-010,Notebook,stationery,Spiral bound notebook with a yellow cover and physics notes inside,Classroom B204,2026-10-06,Available,Synthetic
+F-011,Notebook,stationery,Black hardbound notebook with a sticker of a cat and name label removed,Library reading room,2026-10-06,Available,Synthetic
+F-012,Pencil pouch,stationery,Purple zipper pencil pouch with pens a ruler and a small calculator,Classroom A101,2026-10-07,Available,Synthetic
+F-013,USB drive,electronics,Silver 32GB USB pen drive with a red cap,Computer lab,2026-10-07,Available,Synthetic
+F-014,Calculator,electronics,Scientific calculator black with a cracked back cover,Exam hall,2026-10-08,Available,Synthetic
+F-015,Laptop charger,electronics,Black laptop charger with a long cable and a white tape label,Seminar hall,2026-10-08,Available,Synthetic
+F-016,Backpack,bag,Navy blue backpack with a front zip pocket and a keychain of a football,Parking area,2026-10-09,Available,Synthetic
+F-017,Tote bag,bag,Cream canvas tote bag with a printed coffee cup design,Canteen,2026-10-09,Available,Synthetic
+F-018,Spectacles,accessories,Black rectangular framed spectacles in a brown hard case,Classroom B204,2026-10-10,Available,Synthetic
+F-019,Sunglasses,accessories,Brown round sunglasses with one loose arm,Playground,2026-10-10,Available,Synthetic
+F-020,Wrist watch,accessories,Silver analog wrist watch with a brown leather strap,Gym,2026-10-11,Available,Synthetic
+F-021,Hoodie,clothing,Grey hooded sweatshirt with a university logo on the chest,Library reading room,2026-10-11,Available,Synthetic
+F-022,Jacket,clothing,Black denim jacket with a small badge on the left sleeve,Auditorium,2026-10-12,Available,Synthetic
+F-023,Keys,keys,Set of three keys on a ring with a small red bike keychain,Parking area,2026-10-12,Available,Synthetic
+F-024,Bike key,keys,Single bike key with a black rubber head and a blue tag,Main gate,2026-10-13,Available,Synthetic
+F-025,Lunch box,container,Blue plastic lunch box with a green lid and a spoon inside,Canteen,2026-10-13,Available,Synthetic
+F-026,Textbook,books,Artificial Intelligence textbook with a blue cover and highlighted pages,Classroom A101,2026-10-14,Available,Synthetic
+F-027,Power bank,electronics,White 10000 mAh power bank with a short black cable,Lab 3,2026-10-14,Available,Synthetic
+F-028,Mobile phone,electronics,Black smartphone with a clear back cover and a cracked screen protector,Bus stop,2026-10-15,Available,Synthetic
+F-029,Wallet,accessories,Brown leather wallet with a zip coin pocket and no cards,Gym,2026-10-15,Available,Synthetic
+F-030,Cap,clothing,Navy blue baseball cap with a white logo on the front,Playground,2026-10-16,Available,Synthetic

@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Private user uploads
+uploads/
+
+# Private database
+data/reuniteai.db
+data/reuniteai.db-wal
+data/reuniteai.db-shm
+
+# Operating system
+.DS_Store
+Thumbs.db
